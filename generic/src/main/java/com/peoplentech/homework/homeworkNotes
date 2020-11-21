@@ -1,0 +1,42 @@
+DONE:
+- Validated Scroll/ToElement/Click
+- Validate Dropdown/Select/Click
+- Adding to Cart
+- validate search and click
+- Navigate back
+- Register
+
+
+TO DO:
+- Drag and Drop (Buzzfeed, multi-media site, slider/jQuery)
+- iframe (TBD)
+- Select Visible Text (State Farm)
+- Validate Mouse Hover (Amazon???)
+- Validate Pop-up (TARGET)
+- Sign In (WEDDING WIRE)
+- Remove from Cart (TARGET)
+- Calendars (Expedia)
+- Canvases (TBD)
+
+Websites:
+eBay
+IKEA
+State Farm
+Expedia
+Wedding Wire
+Target
+Buzzfeed
+Tik Tok
+YouTube
+jQuery
+
+
+backwards to scroll back up
+0,-1000
+
+couple of helpful scrolling codes
+//scroll to the bottom of a page
+je.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+//scroll to the top of a page
+je.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
+
