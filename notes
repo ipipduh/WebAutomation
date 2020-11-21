@@ -1,0 +1,5 @@
+REMINDERS AND TIPS:
+
+Just a reminder. For the Selenium project, make sure to change all you System print out to LOGGER.
+For if you have System.out.println("Hello");
+It needs to be LOGGER.info("Hello");
