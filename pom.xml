@@ -11,6 +11,7 @@
     <modules>
         <module>generic</module>
         <module>ebay</module>
+        <module>homework</module>
     </modules>
 
     <properties>
@@ -58,7 +59,7 @@
                 <version>3.4.0</version>
             </dependency>
 
-            <!--Extent report-->
+            <!--Extent com.peoplentech.webautomation.report-->
             <dependency>
                 <groupId>com.aventstack</groupId>
                 <artifactId>extentreports</artifactId>

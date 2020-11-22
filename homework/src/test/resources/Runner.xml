@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Test Suite" parallel="false">
+
+    <parameter name="browser" value="chrome"/>
+<!--    <parameter name="url" value="https://www.weddingwire.com"/>-->
+<!--    <parameter name="url" value="https://www.target.com"/>-->
+<!--    <parameter name="url" value="// https://www.statefarm.com"/>-->
+<!--    <parameter name="url" value="https://www.expedia.com"/>-->
+    <parameter name="url" value="// https://jqueryui.com/slider/"/>
+    <parameter name="url" value="// https://jqueryui.com/droppable/"/>
+    <parameter name="platform" value="windows"/>
+
+    <parameter name="cloud" value="false"/>
+    <parameter name="envName" value="saucelabs"/>
+    <parameter name="browserVersion" value="86"/>
+
+    <test name="Automation tests">
+        <classes>
+<!--            <class name="com.homeworktest.CareerPageValidation"/>-->
+<!--            <class name="com.homeworktest.CartPageValidation"/>-->
+            <class name="com.homeworktest.FramesValidation"/>
+<!--            <class name="com.homeworktest.RegisterPageValidation"/>-->
+<!--            <class name="com.homeworktest.TravelPageValidation"/>-->
+        </classes>
+    </test>
+</suite>
+
+
